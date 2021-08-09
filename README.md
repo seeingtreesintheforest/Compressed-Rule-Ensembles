@@ -7,7 +7,7 @@ In the following shown is CRE-I-RF which uses the CRE-I settings but random fore
 
 The results are interesting: While losing some accuracy, the models get more condensed and compact with significantly smaller model sizes on average.
 
-Further experiments with the compression parameter k:
+# Further experiments with the compression parameter k:
 
 The following plot shows the influence of the compression parameter k on the AUC (red line) and the model size (blue line) on the diabetes dataset:
 
