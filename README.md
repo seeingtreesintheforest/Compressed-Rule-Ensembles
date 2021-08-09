@@ -9,7 +9,7 @@ The results are interesting: While losing some accuracy, the models get more con
 
 Further experiments with the compression parameter k:
 
-The following plot shows the influence of the compression parameter for the diabetes dataset:
+The following plot shows the influence of the compression parameter k on the AUC (red line) and the model size (blue line) on the diabetes dataset:
 ![k_diabetes](https://user-images.githubusercontent.com/88620679/128712259-824b9021-3dc3-40c9-8e88-f987409e8d24.png)
 
 The best tradeoff between model size and accuracy is in this case for k=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
