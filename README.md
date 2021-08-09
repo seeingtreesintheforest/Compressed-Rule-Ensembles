@@ -7,6 +7,8 @@ To demonstrate the interrpretability of soft rules generated from CRE, we compar
 ![RuleCre](https://user-images.githubusercontent.com/88620679/128714592-25eb0992-20ac-4769-b20b-53872901ef5c.PNG)
 ![RulesPRE](https://user-images.githubusercontent.com/88620679/128714606-58a96491-e05c-4b39-8aae-27ddc40b5982.PNG)
 
+First of all, CRE produces significantly less rules, with on average lower number of conditions, which is partly due to the penalization of extra conditions. Secondly, it is interesting to note that the only rules with 3 conditions left in the CRE model (mass & pedi & plas) also appear 7 times in the RuleFit output. This 
+
 # Influence of the tree generating process, using Random Forest to generate the trees:
 In the following shown is CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
 
