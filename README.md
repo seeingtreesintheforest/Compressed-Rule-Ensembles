@@ -1,3 +1,4 @@
+
 # Compressed-Rule-Ensembles
 Here we present additional experiments for th article "Seeing the Trees in the Forest – Compressed Rule Ensemble Learning"
 
@@ -26,3 +27,5 @@ The following plot shows the influence of the compression parameter k on the AUC
 ![k_diabetes](https://user-images.githubusercontent.com/88620679/128712259-824b9021-3dc3-40c9-8e88-f987409e8d24.png)
 
 The best tradeoff between model size and accuracy is in this case for k=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
+
+![Ionosphere_k](https://user-images.githubusercontent.com/88620679/128718570-57f3c086-e0c3-42dd-a5a1-29f91721ec77.png)
