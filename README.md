@@ -1,6 +1,11 @@
 # Compressed-Rule-Ensembles
 Here we present additional experiments for th article "Seeing the Trees in the Forest – Compressed Rule Ensemble Learning"
 
+# Interpretability
+
+To demonstrate the interrpretability of soft rules generated from CRE, we compare the rule outputs of CRE-I and RuleFit-I on the diabetes data.
+
+
 # Influence of the tree generating process, using Random Forest to generate the trees:
 In the following shown is CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
 
