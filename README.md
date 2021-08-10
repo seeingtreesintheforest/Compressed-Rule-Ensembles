@@ -37,7 +37,7 @@ As another example, we can look at the corvariate "plas":
 in this case the number of rules is almost the same, however the CRE model is more expressive and will most likely generalize better to unseen data, as is implied by the empirical comparison on the 16 benchmark datasets.
 
 # Influence of the tree generating process, using Random Forest to generate the trees:
-In the following shown is CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
+The following graph shows a comparison of CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
 
 ![rf_CRE](https://user-images.githubusercontent.com/88620679/128840356-a27ae7d0-1216-46be-a8b0-2372e2de01c7.png)
 
