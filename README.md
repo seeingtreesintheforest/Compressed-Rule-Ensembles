@@ -6,9 +6,12 @@ Here we present additional experiments for the article "Seeing the Trees in the 
 # Interpretability
 
 To demonstrate the interrpretability of soft rules generated from CRE, we compare the rule outputs of CRE-I and RuleFit-I on the diabetes data.
+
+Output CRE-I
 ![RuleCre](https://user-images.githubusercontent.com/88620679/128867447-9627567c-31ef-440f-8611-df03989b9d6d.PNG)
 
-![RulesPRE](https://user-images.githubusercontent.com/88620679/128714606-58a96491-e05c-4b39-8aae-27ddc40b5982.PNG)
+Output RuleFit-I
+![RulesPRE](https://user-images.githubusercontent.com/88620679/128867772-d4745270-9780-44c0-9d2e-f0d5432027b4.PNG)
 
 First of all, CRE produces significantly less rules, with on average lower number of conditions, which is partly due to the penalization of extra conditions. Secondly, it is interesting to note that the only rules with 3 conditions left in the CRE model (mass & pedi & plas) also appears 7 times in the RuleFit output. This very important combination is therefore present in both models, but compressed into only 2 soft rules in the CRE-I model.
 
