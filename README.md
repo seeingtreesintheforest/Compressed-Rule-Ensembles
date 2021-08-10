@@ -15,6 +15,9 @@ The output tells us, that an important risk transition for diabetes takes place 
 
 # Comparison Soft Rule from CRE with hard rule from RuleFit
 
+To compare the soft rules from CRE with hard rules from RuleFit we included a further experiment where we set the allowed tree depth to 1. This is required, as the boundaries are hard to interprete for rules that consists of multiple conditions. We again used the diabetes dataset for this experiment.
+![hard_vs_soft_mass](https://user-images.githubusercontent.com/88620679/128841299-06785bcf-ccb4-4fb2-a401-b25ec705adf8.png)
+
 # Influence of the tree generating process, using Random Forest to generate the trees:
 In the following shown is CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
 
