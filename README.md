@@ -18,9 +18,9 @@ The output tells us, that an important risk transition for diabetes takes place 
 # Influence of the tree generating process, using Random Forest to generate the trees:
 In the following shown is CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
 
-![RF-Experiment](https://user-images.githubusercontent.com/88620679/128699574-b8ff757d-9df4-4b7e-84d9-cd4faa3aa45b.png)
+![rf_CRE](https://user-images.githubusercontent.com/88620679/128840356-a27ae7d0-1216-46be-a8b0-2372e2de01c7.png)
 
-The results are interesting: While losing some accuracy, the models get more condensed and compact with significantly smaller model sizes on average.
+The results are interesting: While losing some accuracy when using Random Forests to generate the decision trees, the models get more condensed and compact with smaller model sizes on average. However the stability decreases, which might be a result of the bootstrapping in Random Forests. 
 
 # Further experiments with the compression parameter k:
 
