@@ -42,7 +42,7 @@ The following graph shows a comparison of CRE-I-RF which uses the CRE-I settings
 
 The results are interesting: While losing some accuracy when using Random Forests to generate the decision trees, the models get more condensed and compact with smaller model sizes on average. However, the stability decreases, which might be a result of the bootstrapping in Random Forests. 
 
-# Further experiments with the compression parameter k:
+# Further experiments with the compression parameter kmax:
 
 The following plot shows the influence of the compression parameter kmax on the AUC (red line) and the model size (blue line) on the diabetes dataset:
 
