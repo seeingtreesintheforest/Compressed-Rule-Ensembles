@@ -20,7 +20,7 @@ First of all, CRE produces significantly fewer rules, with a lower average numbe
 
 The output tells us, that an important risk transition for diabetes takes place between a BMI of 24.5 and 28.35. While it is difficult to interpret the distribution of splitpoints in each ensemble rule, most information can be captured by looking at measures of centrality. For example, another way to interpret mass <  [24.5; 28.35] would be to look at the median, which leads to the interpretation, that the risk transition takes place around a BMI of 26. Readily available is the information, that for the covariate mass, there are different areas where the prediction changes. Overall the number of interesting covariates and combinations thereof is much more compact in CRE-I compared to RuleFit. The condensed output from CRE-I makes it much easier to identify interactions between covariates and subspaces that could be biologically relevant.
 
-# Comparison soft rules from CRE with hard rules from RuleFit
+# Comparison of soft rules from CRE with hard rules from RuleFit
 
 To compare the soft rules from CRE with hard rules from RuleFit we included a further experiment where we set the allowed tree depth to 1 (using lambda.min). This is required, as the boundaries are hard to interpret for rules that consist of multiple conditions. We again used the diabetes dataset for this experiment. Dashed lines show soft rules found by CRE, where the solid vertical lines show hard rules found by the RuleFit model for the covariate "mass":
 
