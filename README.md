@@ -50,11 +50,13 @@ The following plot shows the influence of the compression parameter kmax on the 
 ![k_diabetes](https://user-images.githubusercontent.com/88620679/128856802-147fc666-cfeb-4921-8165-b848c6792d3d.png)
 
 The best tradeoff between model size and accuracy is in this case for kmax=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
+The following graph shows the same setting on the ionosphere data:
+
 ![k_ionosphere](https://user-images.githubusercontent.com/88620679/128862778-cc9c9bd2-0adc-4001-94bf-2b4579f3990d.png)
 
- A similar picture goes for the Ionosphere dataset. As long as kmax is not chosen too small, the model is relatively robust towards the choice of kmax. Stability is also relatively constant around 0.61.
+The general trend is very similar: As long as kmax is not chosen too small, the accuracy is relatively robust towards the choice of kmax. Stability is also relatively constant around 0.61.
  
- Generally, smaller values of kmax lead to smaller model sizes, due to the increased compression. 
+However smaller values of kmax lead to smaller model sizes, due to the increased compression. 
  
  Interesting further work goes towards multi-objective optimization and chosing values of kmax that are optimal for accuracy, model size and stability jointly. 
 
