@@ -7,7 +7,7 @@ Here we present additional experiments for the article "Seeing the Trees in the 
 
 # Interpretability
 
-To demonstrate the interrpretability of soft rules generated from CRE, we compare the rule outputs of CRE-I and RuleFit-I on the diabetes data.
+To demonstrate the interpretability of soft rules generated from CRE, we compare the rule outputs of CRE-I and RuleFit-I on the diabetes data.
 
 Output CRE-I:
 
