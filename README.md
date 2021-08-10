@@ -27,7 +27,7 @@ To compare the soft rules from CRE with hard rules from RuleFit we included a fu
 ![hard_vs_soft_mass](https://user-images.githubusercontent.com/88620679/128841299-06785bcf-ccb4-4fb2-a401-b25ec705adf8.png)
 
 
-One can see, that the RuleFit model uses multiple rules to approximate the decision boundary (in total 7 for mass) while CRE uses 3 soft rules.
+One can see that the RuleFit model uses multiple rules to approximate the decision boundary (in total 7 for mass) while CRE uses 3 soft rules.
 
 As another example, we can look at the corvariate "plas":
 
