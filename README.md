@@ -57,7 +57,7 @@ The general trend is very similar: As long as kmax is not chosen too small, the 
  
 However smaller values of kmax lead to smaller model sizes, due to the increased compression. 
  
- Interesting further work goes towards multi-objective optimization and choosing values of kmax that are optimal for accuracy, model size and stability jointly. 
+ Interesting further work goes towards multi-objective optimization and choosing values of kmax that are optimal compromises for accuracy, model size and stability jointly. 
 
 # Influence of Ensemble compression
 In this experiment compare CRE-I with the same model, but without ensemble compression (k set to the number of unique splitpoints for each covariate).
