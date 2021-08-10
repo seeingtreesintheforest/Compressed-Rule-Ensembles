@@ -49,7 +49,7 @@ The following plot shows the influence of the compression parameter kmax on the 
 ![k_diabetes](https://user-images.githubusercontent.com/88620679/128856802-147fc666-cfeb-4921-8165-b848c6792d3d.png)
 
 The best tradeoff between model size and accuracy is in this case for kmax=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
-The following graph shows the same setting on the ionosphere data:
+The following graph shows the same setting on the Ionosphere data:
 
 ![k_ionosphere](https://user-images.githubusercontent.com/88620679/128862778-cc9c9bd2-0adc-4001-94bf-2b4579f3990d.png)
 
