@@ -39,8 +39,7 @@ The results are interesting: While losing some accuracy when using Random Forest
 
 The following plot shows the influence of the compression parameter kmax on the AUC (red line) and the model size (blue line) on the diabetes dataset:
 
-
-![k_diabetes](https://user-images.githubusercontent.com/88620679/128712259-824b9021-3dc3-40c9-8e88-f987409e8d24.png)
+![k_diabetes](https://user-images.githubusercontent.com/88620679/128856802-147fc666-cfeb-4921-8165-b848c6792d3d.png)
 
 The best tradeoff between model size and accuracy is in this case for kmax=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
 
