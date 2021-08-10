@@ -1,6 +1,7 @@
 
 # Compressed-Rule-Ensembles
-Here we present additional experiments for th article "Seeing the Trees in the Forest – Compressed Rule Ensemble Learning"
+Here we present additional experiments for the article "Seeing the Trees in the Forest – Compressed Rule Ensemble Learning" that will be included in further iterations of the manuscript.
+
 
 # Interpretability
 
