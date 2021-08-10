@@ -52,9 +52,11 @@ The following plot shows the influence of the compression parameter kmax on the 
 The best tradeoff between model size and accuracy is in this case for kmax=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
 ![k_ionosphere](https://user-images.githubusercontent.com/88620679/128862778-cc9c9bd2-0adc-4001-94bf-2b4579f3990d.png)
 
- A similar picture goes for the Ionosphere dataset. As long as kmax is not chosen too small, the model is relatively robust towards the choice of kmax. Generally, smaller values of kmax lead to smaller model sizes. 
+ A similar picture goes for the Ionosphere dataset. As long as kmax is not chosen too small, the model is relatively robust towards the choice of kmax. Stability is also relatively constant around 0.61.
  
- Interesting further work goes towards multi-objective optimization and chosing values kmax that are optimal for accuracy, model size and stability. 
+ Generally, smaller values of kmax lead to smaller model sizes, due to the increased compression. 
+ 
+ Interesting further work goes towards multi-objective optimization and chosing values of kmax that are optimal for accuracy, model size and stability jointly. 
 
 # Influence of Ensemble compression
 In this experiment compare CRE-I with the same model, but without ensemble compression (k set to the number of unique splitpoints for each covariate).
