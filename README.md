@@ -13,6 +13,8 @@ First of all, CRE produces significantly less rules, with on average lower numbe
 
 The output tells us, that an important risk transition for diabetes takes place between a BMI of 24.5 and 28.35. While it is difficult to interprete the distribution of splitpoints in each rule, most information can be captured by looking at meassures of centrality. For example, another way to interpret this rule would be to look at the median, which leads to the interpretation, that the risk transition takes place around a BMI of 26. Readily available is the information, that for the covariate mass, there is different areas where the prediction changes. Overall the number of interesting covariates and combinations thereof is much more compact in CRE-I compared to pre, making it easier to analyse and interprete the final model.
 
+# Comparison Soft Rule from CRE with hard rule from RuleFit
+
 # Influence of the tree generating process, using Random Forest to generate the trees:
 In the following shown is CRE-I-RF which uses the CRE-I settings but random forests to generate the decision rules:
 
@@ -22,11 +24,15 @@ The results are interesting: While losing some accuracy, the models get more con
 
 # Further experiments with the compression parameter k:
 
-The following plot shows the influence of the compression parameter k on the AUC (red line) and the model size (blue line) on the diabetes dataset:
+The following plot shows the influence of the compression parameter kmax on the AUC (red line) and the model size (blue line) on the diabetes dataset:
 
 
 ![k_diabetes](https://user-images.githubusercontent.com/88620679/128712259-824b9021-3dc3-40c9-8e88-f987409e8d24.png)
 
-The best tradeoff between model size and accuracy is in this case for k=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
+The best tradeoff between model size and accuracy is in this case for kmax=3 or even smaller if simpler solutions are preferable. The stability remains relatively constant around 0.75 for all values tried.
 
 ![Ionosphere_k](https://user-images.githubusercontent.com/88620679/128718570-57f3c086-e0c3-42dd-a5a1-29f91721ec77.png)
+ 
+ A similar picture goes for the Ionosphere dataset. As long as kmax is not chosen too small, the model is relatively robust towards the choice of kmax. Generally, smaller values of kmax lead to smaller model sizes. 
+ 
+ Interesting further work goes towards multi-objective optimization and chosing values kmax that are optimal for accuracy, model size and stability. 
